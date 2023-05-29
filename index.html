@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app del clima</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="forma"></div>
+        <div class="forma"></div>
+    </div>
+    <div class="container">
+        <h1>el clima</h1>
+
+        <form action="">
+            <input type="text" id="city-input" placeholder="Ingrese ciudad">
+            <input type="submit" name="btn" id="btn" class="btn" value="Get Weather">
+        </form>
+
+        <div id="weather-data">
+            <div class="icono">
+                <img src="./img/logo-sol-lila.png" alt="weather icon">
+                <img src="./img/logo-nube.png" alt="">
+                <div class="temperature">__°C</div>
+                <div class="description">__</div>
+                <div class="details">
+                    <div>s. térmica:</div>
+                    <div>humedad:</div>
+                    <div>viento:</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
